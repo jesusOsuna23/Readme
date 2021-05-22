@@ -45,20 +45,20 @@ Perfil personal trailhead [Trailhead](https://trailblazer.me/id/josuna)
 - **¿Para qué sirve la funcionalidad Chatter?** Para mantenerse conectado con sus constituyentes y en toda la organización internamente.
 
 ### Conceptos generales
-- **¿Qué significa SaaS? ¿Salesforce es Saas?**
-- **¿Que significa que una solución sea Cloud?**
-- **¿Que significa que una solución sea On-Premise?**
-- **¿Que es un pipeline de ventas?**
-- **¿Que es un funnel de ventas?**
-- **¿Qué significa Customer Experience?**
-- **¿Qué significa omnicanalidad?**
-- **¿Qué significa que un negocio sea B2B?**
-- **¿Qué significa que un negocio sea B2C?**
-- **¿Qué es un KPI?**
-- **¿Qué es una API y en qué se diferencia de una Rest API?**
-- **¿Qué es un Proceso Batch?**
-- **¿Qué es Kanban?**
-- **¿Qué es un ERP? ¿Salesforce es un ERP?**
+- **¿Qué significa SaaS? ¿Salesforce es Saas?** Software as a Service, Si.
+- **¿Que significa que una solución sea Cloud?** Que se encuentra el servio en la nube.
+- **¿Que significa que una solución sea On-Premise?** Que se encuentra en la computadora local.
+- **¿Que es un pipeline de ventas?** Es el mapa de las actividades diarias que del proceso de ventas en el trabajo de un representante comercial
+- **¿Que es un funnel de ventas?** Es una representacion del ciclo o procesos de venta.
+- **¿Qué significa Customer Experience?** Es como percibe racional, física, emocional y/o psicológicamente cualquier parte de una empresa un cliente.
+- **¿Qué significa omnicanalidad?** Es el uso de multiples canales de comunicacion para tener una mjeor comunicacion.
+- **¿Qué significa que un negocio sea B2B?** Que es de empresa a empresa no al consumidor directamente.
+- **¿Qué significa que un negocio sea B2C?** Que es de empresa a consumidor directo.
+- **¿Qué es un KPI?** Es un indicador de desempeño o rendimineto en un proceso.
+- **¿Qué es una API y en qué se diferencia de una Rest API?** Es una interfaz de programacion de aplicaciones, Rest api funciona con la qrquitectura rest y permite la interraccion con servicios web de restful.
+- **¿Qué es un Proceso Batch?** Es la ejecución de un programa sin el control o supervisión directa del usuario.
+- **¿Qué es Kanban?** Es un sistema que controla armonicamente la fabricación de los productos necesarios en la cantidad y tiempo necesarios en cada uno de los procesos que tienen lugar tanto en el interior de la fábrica o una compañia.
+- **¿Qué es un ERP? ¿Salesforce es un ERP?** Son los sistemas gerenciales que integran y manejan negocios asociados a las operaciones de producción y de los aspectos de distribución de una compañía en la producción de bienes o servicios, Si.
 
 ![Procontacto](https://static.wixstatic.com/media/6f319c_68423f71de8b4e8888de89851dec2772~mv2.png/v1/fill/w_265,h_111,al_c,q_85,usm_0.66_1.00_0.01/Logo_Horizontal_Fondo_Blanco_1.webp)
 
