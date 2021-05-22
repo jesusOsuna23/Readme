@@ -1,7 +1,7 @@
-# Actividad 4
+# Ejercicio 4
 Perfil personal trailhead [Trailhead](https://trailblazer.me/id/josuna)
 
-# Actividad 5
+# Ejercicio 5
 |Objeto		| Definicion 					| datos         |
 |---------------|-----------------------------------------------|---------------|
 |Lead           |Es un cliente potencial.			|String		|
@@ -28,21 +28,21 @@ Perfil personal trailhead [Trailhead](https://trailblazer.me/id/josuna)
 - **¿Qué es Marketing Cloud?** Software y servicios de análisis y automatización de marketing digital. 
 
 ### Funcionalidades de Salesforce
-- **¿Qué es un RecordType?**
-- **¿Qué es un ReportType?**
-- **¿Qué es un Page Layout?**
-- **¿Qué es un Compact Layout?**
-- **¿Qué es un Perfil?**
-- **¿Qué es un Rol?**
-- **¿Qué es un Validation Rule?**
-- **¿Qué diferencia hay entre una relación Master Detail y Lookup?**
-- **¿Qué es un Sandbox?**
-- **¿Que es un ChangeSet?**
-- **¿Para qué sirve el import Wizard de Salesforce?**
-- **¿Para qué sirve la funcionalidad Web to Lead?**
-- **¿Para qué sirve la funcionalidad Web to Case?**
-- **¿Para qué sirve la funcionalidad Omnichannel?**
-- **¿Para qué sirve la funcionalidad Chatter?**
+- **¿Qué es un RecordType?**  Es una herramienta que determina los procesos comerciales, los diseños de página y los valores de lista de selección a los que los usuarios tienen acceso.
+- **¿Qué es un ReportType?** Es una plantilla que define los objetos y campos que estaran disponibles en el reporte que se creara.
+- **¿Qué es un Page Layout?**  Se encarga de controlar el diseño y organizacion de los botones, campos, s control, visual-force and listas relacionadas enlas paginas de registro de objetos.
+- **¿Qué es un Compact Layout?** Muestra los campos clave de un registro en la aplicación móvil Salesforce, Lightning Experience y en las integraciones de Outlook y Gmail.
+- **¿Qué es un Perfil?** Los perfiles se encargan de controlar al acceso a los datos y que pueden hacer en la aplicacion de los usuarios.
+- **¿Qué es un Rol?** Los roles controlan el nivel de visibilidad que un usuario tiene sobre los datos de su organización.
+- **¿Qué es un Validation Rule?** Se encragan de verificar que los datos que el usuario ingresa en el registro cumple con los estándares solicitados antes de que el usuario pueda guardar el registro.
+- **¿Qué diferencia hay entre una relación Master Detail y Lookup?** Master detail se basa en una clase principal(padre) y una secundaria(hijo), mientras que lookup se crea una relacion entre dos objetos iguales.
+- **¿Qué es un Sandbox?** Es una herramienta para copiar la metadata desde la organizacion de produccion a una de pruebas.
+- **¿Que es un ChangeSet?** Es una funcion que contiene solo las modificaciones y modifica la metadata.
+- **¿Para qué sirve el import Wizard de Salesforce?** Funciona para importar cualquier dato estandar de salesforce como objetos, cuentas, contactos, etc, facilmente.
+- **¿Para qué sirve la funcionalidad Web to Lead?** Para recopilar informacion de los sitios web de la empresa.
+- **¿Para qué sirve la funcionalidad Web to Case?** Para Recopilar solicitudes de atención al cliente directamente desde el sitio web de su empresa.
+- **¿Para qué sirve la funcionalidad Omnichannel?** Para conectar a diferentes redes simultaneamente y en tiempo integral.
+- **¿Para qué sirve la funcionalidad Chatter?** Para mantenerse conectado con sus constituyentes y en toda la organización internamente.
 
 ### Conceptos generales
 - **¿Qué significa SaaS? ¿Salesforce es Saas?**
