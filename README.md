@@ -1,3 +1,8 @@
+# Ejercicio 1
+### Visual Code
+
+### GIT Bash
+
 # Ejercicio 2
 1.	**¿Qué es un servidor HTTP?**
 Es el servidor online que se encarga de conectar al usuario con la aplicación.
