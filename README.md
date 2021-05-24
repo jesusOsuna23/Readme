@@ -47,8 +47,16 @@ Es un sistema bidireccional de request y response.
 Los headers transmiten la información acerca del navegador del cliente, de la página solicitada, del servidor, etc., y el key content se usa para informar que tipo de dato se retorna.
 
 # Ejercicio 3
-##GET
-![Get](https://github.com/jesusOsuna23/Readme/blob/main/Ejercicio%205.jpg)
+
+##Get
+![Get](https://github.com/jesusOsuna23/Readme/blob/main/get.png)
+
+##Post
+![Get](https://github.com/jesusOsuna23/Readme/blob/main/Post.png)
+
+##Get final
+![Get](https://github.com/jesusOsuna23/Readme/blob/main/get%20final.png)
+
 **¿Qué diferencias se observan?**
 Se le agregaron 5 líneas de código al url final, las mismas 5 de código que se le agregaron al body anteriormente.
 
