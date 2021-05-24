@@ -46,6 +46,13 @@ Es un sistema bidireccional de request y response.
 11.	**¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
 Los headers transmiten la información acerca del navegador del cliente, de la página solicitada, del servidor, etc., y el key content se usa para informar que tipo de dato se retorna.
 
+# Ejercicio 3
+##GET
+![Get](https://github.com/jesusOsuna23/Readme/blob/main/Ejercicio%205.jpg)
+**¿Qué diferencias se observan?**
+Se le agregaron 5 líneas de código al url final, las mismas 5 de código que se le agregaron al body anteriormente.
+
+
 # Ejercicio 4
 Perfil personal trailhead [Trailhead](https://trailblazer.me/id/josuna)
 
