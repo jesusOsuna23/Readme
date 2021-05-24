@@ -1,3 +1,51 @@
+# Ejercicio 2
+1.	**¿Qué es un servidor HTTP?**
+Es el servidor online que se encarga de conectar al usuario con la aplicación.
+2.	**¿Qué son los verbos HTTP? Mencionar los más conocidos**
+Son las instrucciones de qué hacer con los datos del url.
+Get, Put, Delete, Post
+3.	**¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
+Request es cuando la página le solicita la información al servidor y response es cuando responde este.
+Los headers son los “separadores” del código, por ejemplo, para distinguir head de body.
+4.	**¿Qué es un queryString? (En el contexto de una url)**
+Es la interacción de la página con la base de datos para pasar los datos a la pagina web.
+5.	**¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?**
+Es la señal que devuelve el sistema para saber si se realizó el proceso correctamente o no, los valores devueltos pueden ser informativos, satisfactorios, redirecciones y errores.
+6.	**¿Cómo se envía data en un Get y cómo en un POST?**
+Get lo envía por medio del url directo y post lo hace con procesos secundarios ocultos del usuario.
+7.	**¿Qué verbo http utiliza el navegador cuando accedemos a una página?**
+connect
+8.	**Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
+JSON se basa en JavaScript por una serie de pares de nombres, valores y el uso de llaves y XML se basa en textos y etiquetas parecido a HTML.
+
+**JSON:**
+```
+{
+“tipo” “class”
+“Nombre:” “persona”
+“Operaciones” (“Consultar”,” Insertar”,” Actualizar”)
+“Vistas” (“PDF”, “XML”, “cargo”)
+}
+```
+**XML:**
+```
+<Receptor>
+	<DireccionReceptor>
+		<Direccion>1 Avenida 9-59 Zona 1 </Direccion >
+		<CodigoPostal> 01001 >/CodigoPostal>
+		<Municipio> Zapopan </Municipio>
+		<País> México </País>
+	<DireccionReceptor>
+<Receptor>
+```
+
+9.	**Explicar brevemente el estándar SOAP**
+Como dos procesos diferentes se comunican mediante la transmisión de datos en XML
+10.	**Explicar brevemente el estándar REST Full**
+Es un sistema bidireccional de request y response.
+11.	**¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
+Los headers transmiten la información acerca del navegador del cliente, de la página solicitada, del servidor, etc., y el key content se usa para informar que tipo de dato se retorna.
+
 # Ejercicio 4
 Perfil personal trailhead [Trailhead](https://trailblazer.me/id/josuna)
 
