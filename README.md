@@ -84,7 +84,7 @@ Perfil personal trailhead [Trailhead](https://trailblazer.me/id/josuna)
 |Article	|Son documentos de informacion o de los procesos.|String		|
 
 ## Diagrama UML
-![Diagrama UML](https://github.com/jesusOsuna23/Readme/blob/main/Ejercicio%205.jpg)
+![Diagrama UML](https://github.com/jesusOsuna23/Readme/blob/main/diagrama%20ejercicio%205.jpg)
 
 # Ejercicio 7
 
