@@ -1,7 +1,7 @@
 # Ejercicio 1
-### Visual Code
+### Git Bash
 ![Get](https://github.com/jesusOsuna23/Readme/blob/main/GIT%20Bash.png)
-### GIT Bash
+### Visual Code
 ![Get](https://github.com/jesusOsuna23/Readme/blob/main/Visual%20code.png)
 # Ejercicio 2
 1.	**¿Qué es un servidor HTTP?**
