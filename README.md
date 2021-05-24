@@ -48,13 +48,13 @@ Los headers transmiten la información acerca del navegador del cliente, de la p
 
 # Ejercicio 3
 
-##Get
+## Get
 ![Get](https://github.com/jesusOsuna23/Readme/blob/main/get.png)
 
-##Post
+## Post
 ![Get](https://github.com/jesusOsuna23/Readme/blob/main/Post.png)
 
-##Get final
+## Get final
 ![Get](https://github.com/jesusOsuna23/Readme/blob/main/get%20final.png)
 
 **¿Qué diferencias se observan?**
