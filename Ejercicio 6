@@ -1,5 +1,5 @@
-### idProContacto
-```
+//////idProContacto\\\\\\\
+
 global trigger idProContatco on Contact (after insert,after update) {
     for(contact c : Trigger.New){
     @HttpGet
@@ -15,8 +15,8 @@ global trigger idProContatco on Contact (after insert,after update) {
     }
 }
 
-### Web services
-```
+///////Web services\\\\\\\
+
 global public class WebServices {
     	String response;
 		global static void getAccount(){
