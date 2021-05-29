@@ -17,7 +17,7 @@ global trigger idProContatco on Contact (after insert,after update) {
 
 ///////Web services\\\\\\\
 
-global public class WebServices {
+public class WebServices {
     	String response;
 		global static void getAccount(){
         list<API_Response> rsponse = new List<APPI_Response>();
