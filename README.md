@@ -89,7 +89,8 @@ Perfil personal trailhead [Trailhead](https://trailblazer.me/id/josuna)
 ![Diagrama UML](https://github.com/jesusOsuna23/Readme/blob/main/diagrama%20ejercicio%205.jpg)
 
 # Ejercicio 6
-![Get]()
+![Postman](https://github.com/jesusOsuna23/Readme/blob/main/image.png)
+ [Ejercicio 6](https://github.com/jesusOsuna23/Readme/blob/main/Ejercicio%206)
 
 
 # Ejercicio 7
