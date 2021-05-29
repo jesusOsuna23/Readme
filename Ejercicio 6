@@ -1,0 +1,66 @@
+### idProContacto
+```
+global trigger idProContatco on Contact (after insert,after update) {
+    for(contact c : Trigger.New){
+    @HttpGet
+    global static Contact getContact(){
+        RestRequest request = RestContext.request;
+        //Grab the accountId from end of URL
+        String accountId = request.requestURI.substringBetween('Accounts/','/contacts');
+        Account acc = [select Id,Name,(select Id,Name from Contacts) from Account where Id = :accountId];
+        system.debug('Account and Related Contacts->>>>'+acc);
+        return acc;
+    }
+}
+    }
+}
+
+### Web services
+```
+global public class WebServices {
+    	String response;
+		global static void getAccount(){
+        list<API_Response> rsponse = new List<APPI_Response>();
+        RestRequest request = RestContext.request;
+        String accID = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1);
+        List<Account> result = [Select Id
+            					from Account
+            					where Id = :accID];
+        if(result.isEmpty() )
+            response.add( new API_Response('ERROR', 'Cuenta no encontrada', accID));
+        else{
+            response.add(new API_Response('OK',String.valueOf(result.get(0)),''));}
+        //HTTP Response parameters
+        if(!Test.isRunningTest()){
+            RestContext.response.addHeader('Content Type','application/json');
+            RestContext.response.responseBody = Blob.valueOf(
+            									Json.serializePretty(response));            
+        }
+    }
+     private static void getAccountTest1() {
+        Id recordId = createTestRecord();
+        // Set up a test request
+        RestRequest request = new RestRequest();
+        request.requestUri = 'https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json'+'/contacts' ;
+        request.httpMethod = 'GET';
+        RestContext.request = request;
+        // Call the method to test
+        Account thisAccount = AccountManager.getAccount();
+        // Verify results
+        System.assert(thisAccount != null);
+        System.assertEquals('Test record', thisAccount.Name);
+
+    }
+
+    // Helper method
+        static Id createTestRecord() {
+        // Create test record
+        Account TestAcc = new Account(
+          Name='Test record');
+        insert TestAcc;
+        Contact TestCon= new Contact(
+        LastName='Test', 
+        AccountId = TestAcc.id);
+        return TestAcc.Id;
+    }      
+}
