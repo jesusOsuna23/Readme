@@ -88,6 +88,10 @@ Perfil personal trailhead [Trailhead](https://trailblazer.me/id/josuna)
 ## Diagrama UML
 ![Diagrama UML](https://github.com/jesusOsuna23/Readme/blob/main/diagrama%20ejercicio%205.jpg)
 
+# Ejercicio 6
+![Get]()
+
+
 # Ejercicio 7
 
 ### Soluciones de Salesforce
